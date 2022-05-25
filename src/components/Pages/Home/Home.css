@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+.homeTitles{
+    margin-top: 5%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.HeaderTitlesLg{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    top: 10%;
+    font-size: 50px;
+}
+
+#root{
+    background-color: black;
+    color: white;
+}
+
+
+
+  .container {
+    max-width: 600px;
+   
+  }
+  .container h1 {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    top: 10%;
+    font-size: 50px;
+  }
+  .container .instruction {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+  
+  .content p {
+    display: inline;
+    background-repeat: no-repeat;
+    transition: all 500ms ease-in-out;
+  }
+
+  
+  .v5 p {
+    margin-top: 8%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    top: 1%;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    text-align: center;
+    background-position: center left;
+    background-size: 100% 0px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+    padding-bottom: 0px;
+  }
+  .v5:hover p {
+    background-size: 100% 100%;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, #ffffff, #ffffff);
+  }
+
+
+
+  .capitalize-me::first-letter {
+    text-transform: capitalize;
+  }
+
+  .capitalize-me{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 25px; 
+    text-align: center;
+    padding:8%;
+
+  }
+
+  .capitalize-mee{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 25px; 
+    text-align: center;
+    padding:0%;
+    margin-bottom:70px;
+  }
+
+
+.v8 p {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    top: 1%;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    text-align: center;
+  background-position: left;
+  background-size: 0% 100%;
+  background-image: linear-gradient(to right, #ffffff, #ffffff);
+  padding-bottom: 4px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.v8:hover p {
+  background-size: 100% 100%;
+  color:black;
+}
+
+.v1 p {
+  margin-bottom: 50px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  top: 1%;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    text-align: center;
+  background-position: bottom left;
+  background-size: 0% 5px;
+  background-image: linear-gradient(#ffffff, #ffffff);
+  padding-bottom: 5px;
+}
+.v1:hover p {
+  background-size: 100% 5px;
+}
+
+
+  
+
+.v7 p {
+  background-position: left;
+  background-size: 0% 100%;
+  background-image: linear-gradient(to right, #ffffff, #ffffff);
+  font-size: 50px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    text-align: center;
+}
+.v7:hover p {
+  background-position: right;
+  background-size: 100% 100%;
+  color:rgb(0, 0, 0)
+}
+
+section {
+    position: relative;
+    width: 100%;
+    padding: 50px;
+}
+
+.image {
+    position: relative;
+    overflow: hidden;
+}
+
+.image.image1 {
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 50%;
+    margin: 20px;
+    shape-outside: circle();
+}
+
+.image.image2 {
+    width: 300px;
+    height: 300px;
+    float: right;
+    border-radius: 50%;
+    margin: 20px;
+    shape-outside: circle();
+}
+
+.image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 426px) {
+
+  .capitalize-me{
+    font-size: 19px;
+  }
+
+  .content v5 p{
+    font-size: 10px;
+  }
+
+}
+
+
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: rgb(255, 249, 249);
+  cursor: pointer;
+  outline: none;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+  background-color: #333;
+  color: #fff;  
+}
+
+@media(max-width: 992px) {
+  
+  #back-to-top-btn { font-size: 22px; width: 40px; height: 40px; bottom: 15px; right: 15px; }
+}
+@media(max-width:768px) {
+  
+  #back-to-top-btn { font-size: 18px; width: 32px; height: 32px; bottom: 6px; right: 6px; }
+}
+
+/* Animations */
+.btnEntrance {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: btnEntrance;
+}
+
+
+
+@media screen and (max-width: 349px){
+  .v10 p{
+    font-size: 15px;
+  }
+}
+
+
+
+@media screen and (max-width: 320px){
+  .v5 p{
+    font-size: 10px;
+    margin: 5px;
+  }
+
+}
+
+@media screen and (max-width: 426px){
+  .image.image1{
+       left: -57px;
+    width: 400px;
+    height: 400px;
+
+  }
+
+  .image.image2{
+    left: 45px;
+ width: 370px;
+ height: 370px;
+
+}
+
+}
+
+@media screen and (max-width: 376px){
+  .image.image1{
+       left: -57px;
+    width: 350px;
+    height: 350px;
+
+  }
+
+  .image.image2{
+    left: 60px;
+   width: 350px;
+   height: 350px;
+
+ }
+
+
+}
+
+@media screen and (max-width: 321px){
+  .image.image1{
+       left: -66px;
+    width: 310px;
+    height: 310px;
+
+  }
+
+  .image.image2{
+    left: 60px;
+   width: 300px;
+   height: 300px;
+
+ }
+
+
+}
+
+
+
+
+
+
+
+
+
