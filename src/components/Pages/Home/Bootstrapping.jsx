@@ -2,11 +2,11 @@ import React from 'react'
 
 import "./Bootstrapping.css"
 
-import pic1 from "./interns/intern2.jpg"
-import pic2 from "./interns/intern8.jpg"
-import pic3 from "./interns/intern9.jpeg"
-import pic4 from "./interns/intern5.JPG"
-import pic5 from "./interns/intern7.jpg"
+import pic1 from "./interns/intern6.jpg"
+import pic2 from "./interns/intern11.png"
+import pic3 from "./interns/intern10.jpeg"
+import pic4 from "./interns/intern12.png"
+import pic5 from "./interns/intern13.png"
 
 
 export default function Bootstrapping() {

@@ -16,13 +16,11 @@ export default function Courses() {
         </div>
 
         <div class="capitalizee-me">
-        At Fuerteventura Startups, we do not believe in the game of pure valuations
-         of start-ups that do not make a profit. Each business must be sustainable,
-          bootstrapped first, and have clear goals for monetization while helping the
-           local economy and environment. Guided by these principles, we welcomed qualified
-            interns from all over Europe with open arms. We have learned a lot from the influx
-             of youth from different cultures into our teams. Still, we have also adapted and taken
-              valuable feedback and helped our teams to prepare for leading.  
+        To make the island a mecca for creativity, global talent, and technological advancement,
+        at Fuerteventura Startups, one of our missions is to provide all necessary learning and
+        tools to the residents and community of the island so that they can benefit from the positive 
+         wave of digitalization and professional advancement. We invite you to participate in our courses 
+          designed for professionals and companies based in Fuerteventura. 
         </div>
 
 
